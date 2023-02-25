@@ -1,0 +1,17 @@
+.backgroundImg {
+    position: absolute;
+    width: 45.4%;
+    height: 100%;
+    left: 699px;
+    top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .backgroundImg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+    }
+}
