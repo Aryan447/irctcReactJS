@@ -6,7 +6,7 @@ export default function Navbar(props) {
   return (
     <>
     <div className="navbar">
-        <img className="irctcLogo" src={IRCTCLogo} alt="IRCTC Logo" />
+        <img className="irctcLogo" src={IRCTCLogo} alt="IRCTC Logo" href='/'/>
       <div className='navbarText'>
         <a className='loginText' href={props.Link1}>{props.Text1}</a>
         <a className='aboutText' href={props.Link2}>{props.Text2}</a>
