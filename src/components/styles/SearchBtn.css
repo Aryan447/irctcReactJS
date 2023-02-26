@@ -1,0 +1,93 @@
+.FromInput {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 5%;
+    top: 40px;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+}
+.ToInput {
+    position: absolute;
+    width: 140px;
+    height: 49px;
+    left: 58.5%;
+    top: 40px;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+}
+.DateInput {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 5%;
+    top: 40%;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+}
+.QuotaInput {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 58.5%;
+    top: 40%;
+    background: rgba(217, 217, 217, 0.2);
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+}
+.SubmitBtn {
+    position: absolute;
+    width: 185px;
+    height: 49px;
+    left: 30%;
+    top: 68%;
+    background: #008000;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+}
+
+@media screen and (max-width: 768px) {
+    .FromInput {
+        position: absolute;
+        width: 140px;
+        height: 49px;
+    }
+    .ToInput {
+        position: absolute;
+        width: 130px;
+        height: 49px;
+    }
+    .DateInput {
+        position: absolute;
+        width: 140px;
+        height: 49px;
+    }
+    .QuotaInput {
+        position: absolute;
+        width: 130px;
+        height: 49px;
+    }
+    .SubmitBtn {
+        position: absolute;
+        width: 150px;
+        height: 49px;
+    }
+}

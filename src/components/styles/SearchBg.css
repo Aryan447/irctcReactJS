@@ -11,6 +11,14 @@
     border-radius: 40px;
 }
 
+.flipIcon {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    left: 46%;
+    top: 12%;
+}
+
 @media screen and (max-width: 768px) {
     .formHomepage {
         position: absolute;
@@ -23,5 +31,12 @@
         backdrop-filter: blur(8px);
         /* Note: backdrop-filter has minimal browser support */
         border-radius: 40px;
+    }
+    .flipIcon {
+        position: absolute;
+        width: 10%;
+        height: 10%;
+        left: 47%;
+        top: 12%;
     }
 }
